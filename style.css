@@ -236,6 +236,10 @@ body{
     margin-left: 50px;
 }
 
+.promo2-margin{
+    margin-left: 30px;
+}
+
 .trend{
     height: 1108px;
 }
@@ -311,4 +315,125 @@ body{
 .promo2-product:nth-child(2n){
     margin-right: 0;
     margin-bottom: 0;
+}
+.mobile{
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+}
+
+.mobile-content{
+    padding-top: 125px;
+    width: 550px;
+}
+
+.mobile-p{
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.mobile-h2{
+    color: #212121;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 72px;
+    text-transform: uppercase;
+    padding-left: 7px;
+}
+
+.mobile-text{
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.mobile-stores{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 33px;
+}
+
+.mobile-store{
+    float: left;
+    margin-right: 10px;
+}
+
+.footer{
+    background-color: #f7f7f7;
+    height: 264px;
+    padding-top: 120px;
+}
+
+.footer-column1{
+    width: 225px;
+    float: left;
+}
+
+.footer-column-headling{
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 25px;
+}
+
+.footer-text{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer-column2{
+    float: left;
+    padding-left: 80px;
+}
+
+.footer-list{
+    list-style-type: none;
+    float: left;
+    margin-right: 100px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.feedback{
+    height: 50px;
+    margin-top: 25px;
+    width: 330px;
+}
+
+.footer-end{
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-top: 60px;
+    float: left;
+}
+
+.footer-copyright{
+    float: left;
+}
+
+.footer-terms{
+    float: left;
+    margin-left: 430px;
+    text-decoration: none;
 }
