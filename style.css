@@ -1,3 +1,11 @@
+/*
+TODO: 
+-кнопка отправить;
+-значки соцсетей;
+-стрелка на кнопках;
+-.featured-product:hover текст на картинке;
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -48,13 +56,10 @@ body{
     margin-right: 25px;
 }
 
-/*.opacity{                                TODO
-    display: block;
-    border: 1px solid #9c9c9c;
-    background-color: #ffffff;
-    opacity: 0.9;
-    background: rgba(256,256,256,0.8)
-}*/
+.featured-product-link:hover{
+    opacity: 0.2;
+    outline: 1px solid #9c9c9c;
+}
 
 .featured-product:last-child{
     margin-right: 0;
@@ -71,6 +76,10 @@ body{
     padding-bottom: 20px;
 }
 
+.featured-menu-link:hover{
+    color: #212121;
+}
+
 .featured-menu-link-active{
     color: #212121;
     border-bottom: 3px solid #212121;
@@ -84,8 +93,12 @@ body{
     text-transform: uppercase;
     letter-spacing: 3.6px;
     float: right;
-    padding-right: 20px;
+    margin-right: 20px;
     text-decoration: none;
+}
+
+.explore:hover{
+    border-bottom: 1px solid #6c6c6c;
 }
 
 .header{
@@ -109,6 +122,11 @@ body{
     text-decoration: none;
     font-weight: 700;
     padding: 10px 13px;
+}
+
+.menu-link:hover{
+    color: #212121;
+    border-bottom: 1px solid #8c8c8c;   
 }
 
 .menu-link-active{
@@ -155,7 +173,6 @@ body{
 .button{
     color: #212121;
     font-size: 18px;
-    line-height: 24px;
     text-transform: uppercase;
     box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
     border-radius: 23px;
@@ -170,6 +187,14 @@ body{
     font-weight: 700;
 }
 
+.button:hover{
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.7);
+}
+
+.button:active{
+    box-shadow: none;
+}
+
 .circle{
     width: 30px;
     height: 30px;
@@ -177,6 +202,10 @@ body{
     background-color: #c7c7c7;
     border-radius: 50%;
     margin: 5px;
+}
+
+.circle:hover{
+    background-color: #212121;
 }
 
 .circle-active{
@@ -266,6 +295,11 @@ body{
     margin-top: 30px;
 }
 
+.trend-product:hover{
+    opacity: 0.2;
+    outline: 1px solid #9c9c9c;
+}
+
 .trend-product:nth-child(3n){
     margin-right: 0;
 }
@@ -310,6 +344,11 @@ body{
     display: inline-block;
     margin-right: 25px;
     margin-bottom: 30px;
+}
+
+.promo2-product:hover{
+    opacity: 0.2;
+    outline: 1px solid #9c9c9c;
 }
 
 .promo2-product:nth-child(2n){
@@ -436,4 +475,131 @@ body{
     float: left;
     margin-left: 430px;
     text-decoration: none;
+}
+
+.product-menu{
+    background-color: #f4f4f4;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.product-menu ul{
+    padding: 28px 360px;
+}
+
+.product-menu-list{
+    display: inline-block;
+    list-style: none;
+}
+
+.product-menu-list a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-right: 20px;
+}
+
+.product-menu-list a:hover{
+    color: #212121;
+}
+
+.product-menu-list .product-menu-active{
+    color: #212121;
+}
+
+.product-main{
+    padding-top: 70px;
+}
+
+.product-main-column1-imgs a:hover{
+    opacity: 0.2;
+}
+
+.product-main-column1{
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.product-main-column1-imgs{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.product-main-column1-img{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product-main-column2{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 45px;
+}
+
+.product-main-column2-h2{
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 140px;
+}
+
+.product-main-column2-hot{
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-left: 210px;
+}
+
+.product-main-column2-price{
+    color: #212121;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.product-main-column2-price span{
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.red-button{
+    color: white;
+    font-size: 22px;
+    border-radius: 35px;
+    background-color: #f44336;
+    width: 510px;
+    height: 70px;
+    letter-spacing: 4.4px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.product-main-column2-text{
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 5px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.relate{
+    height: auto;
+    padding-top: 0;
+    margin-bottom: 120px;
+}
+
+.relate .trend-header{
+    padding-top: 245px;
 }
